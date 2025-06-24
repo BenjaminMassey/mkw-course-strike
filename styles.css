@@ -42,8 +42,8 @@ body {
 }
 
 .image {
-    width: max(25vw, 35vh);
-    height: max(25vw, 35vh);
+    width: max(20vw, 30vh);
+    height: max(20vw, 30vh);
     object-fit: contain;
     padding-left: max(2vw, 2vh);
 }

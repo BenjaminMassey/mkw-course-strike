@@ -32,6 +32,7 @@ function init() {
         ["Starview Peak", document.getElementById("Starview Peak")],
         ["Toads Factory", document.getElementById("Toads Factory")],
         ["Wario Shipyard", document.getElementById("Wario Shipyard")],
+        ["Wario Stadium", document.getElementById("Wario Stadium")],
         ["Whistletop Summit", document.getElementById("Whistletop Summit")]
     ]);
     initialized = true;

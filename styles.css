@@ -28,7 +28,7 @@ body {
 
 .content {
     position: relative;
-    width: max(50vw, 70vh);
+    width: min(max(50vw, 70vh), 100vw);
     height: max(15vw, 25vh);
 	display: flex;
 	align-items: center;
@@ -63,7 +63,7 @@ body {
 
 .disable {
     position: absolute;
-    width: max(50vw, 70vh);
+    width: min(max(50vw, 70vh), 100vw);
     height: max(15vw, 25vh);
     top: 0;
     left: 0;

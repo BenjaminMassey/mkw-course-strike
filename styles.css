@@ -1,0 +1,72 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+	margin: 0;
+	display: flex;
+	align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.list {
+    margin: auto;
+	align-items: center;
+	display: flex;
+	align-items: center;
+    flex-direction: column;
+    padding-top: 5vh;
+}
+
+.item {
+  position: relative;
+}
+
+.content {
+    position: relative;
+    width: max(50vw, 70vh);
+    height: max(15vw, 25vh);
+	display: flex;
+	align-items: center;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    background-color: #4343a6;
+    border-radius: 5%;
+    z-index: 1;
+}
+
+.image {
+    width: max(25vw, 35vh);
+    height: max(25vw, 35vh);
+    object-fit: contain;
+    padding-left: max(2vw, 2vh);
+}
+
+.label {
+    text-align: center;
+    font-size: max(2.5vw, 3.5vh);
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.disable {
+    position: absolute;
+    width: max(50vw, 70vh);
+    height: max(15vw, 25vh);
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+}

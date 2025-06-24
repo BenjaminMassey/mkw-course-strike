@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MKW Strike</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="init()">
+    <div class="list">
+        <div class="item" onclick="toggle('Acorn Heights')">
+            <div class="content">
+                <img class="image" src="images/courses/Acorn Heights.webp"/>
+                <div class="label">Acorn Heights</div>
+            </div>
+            <img id="Acorn Heights" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Airship Fortress')">
+            <div class="content">
+                <img class="image" src="images/courses/Airship Fortress.webp"/>
+                <div class="label">Airship Fortress</div>
+            </div>
+            <img id="Airship Fortress" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Boo Cinema')">
+            <div class="content">
+                <img class="image" src="images/courses/Boo Cinema.webp"/>
+                <div class="label">Boo Cinema</div>
+            </div>
+            <img id="Boo Cinema" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Bowsers Castle')">
+            <div class="content">
+                <img class="image" src="images/courses/Bowsers Castle.webp"/>
+                <div class="label">Bowsers Castle</div>
+            </div>
+            <img id="Bowsers Castle" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Cheep Cheep Falls')">
+            <div class="content">
+                <img class="image" src="images/courses/Cheep Cheep Falls.webp"/>
+                <div class="label">Cheep Cheep Falls</div>
+            </div>
+            <img id="Cheep Cheep Falls" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Choco Mountain')">
+            <div class="content">
+                <img class="image" src="images/courses/Choco Mountain.webp"/>
+                <div class="label">Choco Mountain</div>
+            </div>
+            <img id="Choco Mountain" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Crown City')">
+            <div class="content">
+                <img class="image" src="images/courses/Crown City.webp"/>
+                <div class="label">Crown City</div>
+            </div>
+            <img id="Crown City" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Dandelion Depths')">
+            <div class="content">
+                <img class="image" src="images/courses/Dandelion Depths.webp"/>
+                <div class="label">Dandelion Depths</div>
+            </div>
+            <img id="Dandelion Depths" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Desert Hills')">
+            <div class="content">
+                <img class="image" src="images/courses/Desert Hills.webp"/>
+                <div class="label">Desert Hills</div>
+            </div>
+            <img id="Desert Hills" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Dino Dino Jungle')">
+            <div class="content">
+                <img class="image" src="images/courses/Dino Dino Jungle.webp"/>
+                <div class="label">Dino Dino Jungle</div>
+            </div>
+            <img id="Dino Dino Jungle" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('DK Pass')">
+            <div class="content">
+                <img class="image" src="images/courses/DK Pass.webp"/>
+                <div class="label">DK Pass</div>
+            </div>
+            <img id="DK Pass" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('DK Spaceport')">
+            <div class="content">
+                <img class="image" src="images/courses/DK Spaceport.webp"/>
+                <div class="label">DK Spaceport</div>
+            </div>
+            <img id="DK Spaceport" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Dry Bones Burnout')">
+            <div class="content">
+                <img class="image" src="images/courses/Dry Bones Burnout.webp"/>
+                <div class="label">Dry Bones Burnout</div>
+            </div>
+            <img id="Dry Bones Burnout" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Faraway Oasis')">
+            <div class="content">
+                <img class="image" src="images/courses/Faraway Oasis.webp"/>
+                <div class="label">Faraway Oasis</div>
+            </div>
+            <img id="Faraway Oasis" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Great Question Mark Block Ruins')">
+            <div class="content">
+                <img class="image" src="images/courses/Great Question Mark Block Ruins.webp"/>
+                <div class="label">Great ? Block Ruins</div>
+            </div>
+            <img id="Great Question Mark Block Ruins" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Koopa Troopa Beach')">
+            <div class="content">
+                <img class="image" src="images/courses/Koopa Troopa Beach.webp"/>
+                <div class="label">Koopa Troopa Beach</div>
+            </div>
+            <img id="Koopa Troopa Beach" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Mario Bros Circuit')">
+            <div class="content">
+                <img class="image" src="images/courses/Mario Bros Circuit.webp"/>
+                <div class="label">Mario Bros Circuit</div>
+            </div>
+            <img id="Mario Bros Circuit" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Mario Circuit')">
+            <div class="content">
+                <img class="image" src="images/courses/Mario Circuit.webp"/>
+                <div class="label">Mario Circuit</div>
+            </div>
+            <img id="Mario Circuit" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Moo Moo Meadows')">
+            <div class="content">
+                <img class="image" src="images/courses/Moo Moo Meadows.webp"/>
+                <div class="label">Moo Moo Meadows</div>
+            </div>
+            <img id="Moo Moo Meadows" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Peach Beach')">
+            <div class="content">
+                <img class="image" src="images/courses/Peach Beach.webp"/>
+                <div class="label">Peach Beach</div>
+            </div>
+            <img id="Peach Beach" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Peach Stadium')">
+            <div class="content">
+                <img class="image" src="images/courses/Peach Stadium.webp"/>
+                <div class="label">Peach Stadium</div>
+            </div>
+            <img id="Peach Stadium" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Rainbow Road')">
+            <div class="content">
+                <img class="image" src="images/courses/Rainbow Road.webp"/>
+                <div class="label">Rainbow Road</div>
+            </div>
+            <img id="Rainbow Road" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Salty Salty Speedway')">
+            <div class="content">
+                <img class="image" src="images/courses/Salty Salty Speedway.webp"/>
+                <div class="label">Salty Salty Speedway</div>
+            </div>
+            <img id="Salty Salty Speedway" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Shy Guy Bazaar')">
+            <div class="content">
+                <img class="image" src="images/courses/Shy Guy Bazaar.webp"/>
+                <div class="label">Shy Guy Bazaar</div>
+            </div>
+            <img id="Shy Guy Bazaar" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Sky-High Sundae')">
+            <div class="content">
+                <img class="image" src="images/courses/Sky-High Sundae.webp"/>
+                <div class="label">Sky-High Sundae</div>
+            </div>
+            <img id="Sky-High Sundae" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Starview Peak')">
+            <div class="content">
+                <img class="image" src="images/courses/Starview Peak.webp"/>
+                <div class="label">Starview Peak</div>
+            </div>
+            <img id="Starview Peak" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Toads Factory')">
+            <div class="content">
+                <img class="image" src="images/courses/Toads Factory.webp"/>
+                <div class="label">Toad's Factory</div>
+            </div>
+            <img id="Toads Factory" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Wario Shipyard')">
+            <div class="content">
+                <img class="image" src="images/courses/Wario Shipyard.webp"/>
+                <div class="label">Wario Shipyard</div>
+            </div>
+            <img id="Wario Shipyard" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Wario Stadium')">
+            <div class="content">
+                <img class="image" src="images/courses/Wario Stadium.webp"/>
+                <div class="label">Wario Stadium</div>
+            </div>
+            <img id="Wario Stadium" class="disable" src="images/disable.webp"/>
+        </div>
+        <div class="item" onclick="toggle('Whistletop Summit')">
+            <div class="content">
+                <img class="image" src="images/courses/Whistletop Summit.webp"/>
+                <div class="label">Whistletop Summit</div>
+            </div>
+            <img id="Whistletop Summit" class="disable" src="images/disable.webp"/>
+        </div>
+    </div>
+</body>
+</html>
